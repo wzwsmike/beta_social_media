@@ -1,0 +1,86 @@
+ body{
+        overflow-x:hidden; 
+    }
+
+    .container{
+    width: 1140px;  
+    display: flex;
+    margin: 30px auto;
+    box-sizing: border-box;
+    padding: 20px;
+    justify-content: center;   
+    font-family: Lora;
+    }
+    
+    .logosection{
+        justify-content: flex-end;  
+        flex: 1;  
+    }
+
+    .logosection img{
+        width: 460px;
+    }
+
+    .main{  
+        flex: 2;  
+        margin: auto; 
+    }
+
+    .title{
+        font-size: 48px;
+        font-family: Montserrat;
+        font-weight: bold;
+    }
+
+    .subtitle{
+        font-size: 32px;
+    }
+
+    .sub-subtitle{
+        font-family: Montserrat;
+    }
+
+    .btn.btn-info.btn-lg{
+        height: 55px;
+    }
+
+    #signup{
+        width: 60%;
+        border-radius:20px;
+        background-color:#D6893A;
+        border:1px solid #D6893A;
+    }
+    
+    #signup:hover{
+        width: 60%;
+        border-radius:20px;
+        background-color:#AB6D2E;
+        border:1px solid #D6893A;
+    }
+    
+    #login{
+        width: 60%;
+        border-radius:20px;
+        background-color: #fff;
+        color: #D6893A;
+        border:1px solid #D6893A;
+    }
+    #login:hover{
+        width: 60%;
+        border-radius:20px;
+        background-color: #fff;
+        color:#D6893A;
+        border:2px solid #D6893A;
+    }
+   
+
+    .footer{
+        text-align: center;
+    }
+
+    .footer hr{
+        border: 1px solid #D6893A;
+        opacity: 20%;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
