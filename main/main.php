@@ -13,31 +13,33 @@
     </head>
 
     <div class="container">
+        <div class="card">
+        <div class="logosection">
+          <img class="logo" src="img/logo.jpg"></img>
+        </div>
 
-    <div class="logosection">
-      <img class="logo" src="img/logo.jpg"></img>
-    </div>
+        <div class="main">
+                <h1 class="title">Shouter</h1>
+                <p class="subtitle">The Place where you can SHOUT <br>to the world</p><br>
+                <p class="sub-subtitle"><b>Join Shouter today.</b></p>
+               
+               <form method="post" action="">
+                   <button id="signup" class="btn btn-info btn-lg" name="signup">Sign up</button><br><br>
+                    <?php
+                        if(isset($_POST['signup'])){
+                            echo "<script>window.open('signup.php','_self')</script>";
+                        }
+                    ?>
 
-    <div class="main">
-            <h1 class="title">Shouter</h1>
-            <p class="subtitle">The Place where you can SHOUT <br>to the world</p><br>
-            <p class="sub-subtitle"><b>Join Shouter today.</b></p>
-           <form method="post" action="">
-               <button id="signup" class="btn btn-info btn-lg" name="signup">Sign up</button><br><br>
-                <?php
-                    if(isset($_POST['signup'])){
-                        echo "<script>window.open('signup.php','_self')</script>";
-                    }
-                ?>
-
-                <button id="login" class="btn btn-info btn-lg" name="login">Login</button><br><br>
-                <?php
-                    if(isset($_POST['login'])){
-                        echo "<script>window.open('login.php','_self')</script>";
-                    }
-                ?>
-            </form>
-    </div>
+                    <button id="login" class="btn btn-info btn-lg" name="login">Login</button><br><br>
+                    <?php
+                        if(isset($_POST['login'])){
+                            echo "<script>window.open('login.php','_self')</script>";
+                        }
+                    ?>
+                </form>
+        </div>
+        </div>
     </div>
 
      <div class="footer">

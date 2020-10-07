@@ -12,6 +12,12 @@
     font-family: 'Lora', serif;
     }
     
+    .container .card{
+        display: flex;
+        width: 50
+        margin: 0px auto;
+    }
+
     .logosection{
         justify-content: flex-end;  
         flex: 1;  
@@ -21,14 +27,16 @@
         width: 460px;
     }
 
-    .main{  
+    .main{ 
         flex: 2;  
         margin: auto; 
+        justify-content: flex-start;
     }
 
     .title{
         font-size: 48px;
-        font-family: 'Montserrat', sans-serif;        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;  
+        font-weight: bold;
     }
 
     .subtitle{
@@ -82,6 +90,4 @@
     .footer hr{
         border: 1px solid #D6893A;
         opacity: 20%;
-        margin-right: 50px;
-        margin-left: 50px;
     }
